@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:get/route_manager.dart';
 
 import 'features/core/presentation/routes/main_page.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // debugRepaintRainbowEnabled = true;
+    debugRepaintRainbowEnabled = true;
     return GetMaterialApp(
       title: 'Bezlimit Test Task',
       home: MainPageRoute(),
